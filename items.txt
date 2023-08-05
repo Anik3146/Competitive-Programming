@@ -1,0 +1,9 @@
+chair 0
+knife -25
+needle -10
+Table 0
+Torch 0
+Sleep 90
+nap 30
+fire -100
+breakfast 50
