@@ -1,0 +1,37 @@
+===Git Tutorial====
+
+For Local WorkSpace :
+
+1.Git init
+2.Git add .
+3.Git commit -m "message"
+4.Git commit -am "add+message"
+5.Git status //check status
+6.Git log --oneline //get head id
+7.Git reset HEAD~//back to workspace
+8.Git reset soft HEAD~//back to stagging area
+9.Git reset hard HEAD~//delete
+10.Git reset hard HEAD~num
+11.Git checkout commit_id/branch_name (switches head/branch --> where head is initially at recent commit)
+12.Git branch "new_branch_name"
+13.Git branch -b "new_branch_name+switched"
+14.Git branch -d "delete branch name"
+15.Git checkout switch_origin
+15.Git remote //remote status check
+16.Git remote add origin https://address /* add with remote repository */
+17.Git push -u origin master/branch_name
+18.Git pull
+19.Git merge branch_name (first checkout to main/master branch)
+20.fork (finally make contribute pull request to original developer)
+21.collaborator (manually access control)
+22.Make a branch then push it so that owner can accept and review the pull request. (if direct push from main branch is prohibited)
+23. create .gitignore file to ignore some extentions.
+
+.gitignore
+
+for files:
+.exe
+name.exe
+*.exe
+!file.exe //use ! to include into repo
+folder/ /*for folder*/
