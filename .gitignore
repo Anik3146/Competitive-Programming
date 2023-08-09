@@ -1,4 +1,4 @@
 *.exe
-/.vscode
+.vscode/
 *.o
-/New folder
+New folder/
