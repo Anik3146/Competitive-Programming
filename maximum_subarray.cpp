@@ -9,14 +9,24 @@ const double PI = 3.1415926535897932384626;
 #define rrep(i,a,b) for(ll i=a;i>=b;i--)
 
 
-
 void tc()
 {
-	vector<int> minHeap(1, -1);
-	vector<int> maxHead(1, -1);
-	
+	vector<ll>a{1,2,-4,5,-2,9,1};
 
+    ll max_subarray=0;
+    ll dynamic_sum = 0;
+
+    rep(i,0,a.size())
+    {
+        dynamic_sum += a[i];
+        dynamic_sum = max(0LL, dynamic_sum);
+        max_subarray = max(max_subarray, dynamic_sum);
+    }
+	
+    cout<<max_subarray<<endl;
+	
 }
+
 
 	
 int main()

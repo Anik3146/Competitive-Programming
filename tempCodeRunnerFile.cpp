@@ -1,1 +1,1 @@
-ma=a[n-1],mi=a[0];
+#include <bits/stdc++.h>
